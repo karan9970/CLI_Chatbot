@@ -1,5 +1,6 @@
 # Handles the sliding window for context memory
 %%writefile chat_memory.py
+
 MAX_MEMORY_TURNS = 4  # number of (user,bot) exchange pairs to keep
 chat_history = []     # list of dicts: [{'role': 'user'/'bot', 'text': '...'}]
 
